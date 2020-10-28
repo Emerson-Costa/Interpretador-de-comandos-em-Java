@@ -13,12 +13,12 @@ class Interpretador {
 
     public static void main(String[] args)  throws IOException, InterruptedException{
        Interpretador i = new Interpretador();
-       i.primeiro();
+       i.comando1();
     }
 
-    public void segundo(){
+    public void comando1(){
         try {
-            Process process = Runtime.getRuntime().exec("ls -l /");
+            Process process = Runtime.getRuntime().exec("pwd");
 
             StringBuilder output = new StringBuilder();
 
@@ -47,7 +47,7 @@ class Interpretador {
     }
 
     // metodos 
-    public void primeiro()  throws IOException, InterruptedException {
+    public void comando2()  throws IOException, InterruptedException {
 
         String[] comand = { "ping", "google.com" };
 
