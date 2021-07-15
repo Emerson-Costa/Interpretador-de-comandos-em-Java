@@ -1,11 +1,8 @@
-# Interpretador-de-comandos-em-Java
-Trabalho de Sistemas Operacionais
+# Interpretador de Comados Shell em Java
+  Trabalho de Sistemas Operacionais simulando um interpretador de comandos shell
 
 # IDE no projeto
-Netebeans 
+  Netebeans 
 
 # Como Usar
-
-1-
-2-
-3...
+  Clonar o projeto e abrir com a IDE de prefrência o Netbeans onde o mesmo foi desenvolvido.
